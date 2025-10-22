@@ -1,0 +1,108 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes1",
+						"name": "c",
+						"type": "bytes1"
+					}
+				],
+				"name": "getValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "roman",
+						"type": "string"
+					}
+				],
+				"name": "romanToInt",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"getValue(bytes1)": {
+					"details": "获取单个罗马数字字符的值",
+					"params": {
+						"c": "罗马数字字符"
+					},
+					"returns": {
+						"_0": "对应的数值"
+					}
+				},
+				"romanToInt(string)": {
+					"details": "将罗马数字字符串转换为整数",
+					"params": {
+						"roman": "罗马数字字符串（只包含 I,V,X,L,C,D,M）"
+					},
+					"returns": {
+						"_0": "对应的整数值"
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/RomanToInteger.sol": "RomanToInteger"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/RomanToInteger.sol": {
+			"keccak256": "0x72da8144a139e3772115af3ad0056cccd9f2202d935dd5fb69b7ad99bb29c00d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d1b841118e3ecd26869711569bf8bb9f931fbd085fda1b8ca4a5d8f919ab706a",
+				"dweb:/ipfs/QmZhhAoXRULBY4vFL6TNbqNG4Pd9vK7hPWbJHKXNFF8VsV"
+			]
+		}
+	},
+	"version": 1
+}

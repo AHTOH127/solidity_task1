@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					}
+				],
+				"name": "intToRoman",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"intToRoman(uint256)": {
+					"details": "将整数转换为罗马数字（优化版本）",
+					"params": {
+						"number": "要转换的整数 (1-3999)"
+					},
+					"returns": {
+						"_0": "对应的罗马数字字符串"
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"IntToRoman.sol": "IntToRoman"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"IntToRoman.sol": {
+			"keccak256": "0xd45f338757af444226bb7d57855d8edab3dfd8f6104bff7811c6acbfb0d04d9a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://abce36a79ef4618cb2db58b1d141dd3b242d501535d567a3726e59d848d110a8",
+				"dweb:/ipfs/QmVb4eiCchxiZQdcACibkZPZnkjzorkDhSSF31KtAmbuNf"
+			]
+		}
+	},
+	"version": 1
+}
