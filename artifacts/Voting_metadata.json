@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getVotes",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "resetVotes",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					}
+				],
+				"name": "vote",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "一个mapping来存储候选人的得票数 一个vote函数，允许用户投票给某个候选人 一个getVotes函数，返回某个候选人的得票数 一个resetVotes函数，重置所有候选人的得票数",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Voting.sol": "Voting"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Voting.sol": {
+			"keccak256": "0xba6f05c9fb709e4e8b7a4b4e985538e1a0efec94f9116175fc411f0575bb2a51",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://98c103981518b0efa1a57331b250884c2b1e5bff591c0ff9d11ecd211f972f38",
+				"dweb:/ipfs/QmP2XXEP8ByYiG1YL2nLNbVeoToS2T5ac4cPWQGp9QvCTV"
+			]
+		}
+	},
+	"version": 1
+}

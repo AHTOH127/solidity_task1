@@ -1,0 +1,81 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "target",
+						"type": "uint256"
+					}
+				],
+				"name": "binarySearch",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"binarySearch(uint256[],uint256)": {
+					"details": "在升序数组中二分查找目标值",
+					"params": {
+						"arr": "升序排列的数组（必须有序，否则结果无效）",
+						"target": "待查找的目标值"
+					},
+					"returns": {
+						"_0": "目标值在数组中的索引（存在时）；-1（不存在时）"
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BinarySearch.sol": "BinarySearch"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BinarySearch.sol": {
+			"keccak256": "0xeccf736badac8ea492697651a206756e2d8184880e0171225c50edcb9fe7b863",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d9e7c94fe6c5c6651e4773aa978ae219f03999db8cf781d0a797a814453a34a7",
+				"dweb:/ipfs/Qmb6Y429g8BVG3P8UCYj2CWUukbSXMR3FMKoWnQrdjc5z1"
+			]
+		}
+	},
+	"version": 1
+}
